@@ -1,0 +1,151 @@
+/*App.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
+
+body {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	background: linear-gradient(to bottom, #000000, #222222);
+}
+
+.portfolio-container {
+	color: rgb(193, 193, 193);
+	padding: 20px;
+	max-width: 800px;
+	margin: auto;
+	box-shadow: 0 0 10px #3498db;
+	border: 2px solid #3498db;
+	padding: 20px;
+	border-radius: 20px;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.profile-photo {
+	width: 100px;
+	height: 100px;
+	background-image: url('https://media.geeksforgeeks.org/wp-content/uploads/20240208132439/avatar.png');
+	background-size: cover;
+	background-position: center;
+	box-shadow: 0 0 10px #3498db;
+	border-radius: 50%;
+	border: 5px solid #3498db;
+	margin-right: 20px;
+}
+
+h1 {
+	margin: 0;
+	color: rgb(255, 255, 255);
+}
+
+.header-content {
+	flex: 1;
+}
+
+.social-icons {
+	display: flex;
+}
+
+.social-icons a {
+	color: #fff;
+	margin-left: 10px;
+	text-decoration: none;
+	transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+	color: #3498db;
+}
+
+.pop-effect {
+	transform: scale(1);
+	transition: transform 0.3s ease-in-out;
+}
+
+.pop-effect:hover {
+	transform: scale(1.05);
+}
+
+.about {
+	margin-top: 20px;
+}
+
+.about h2 {
+	border-bottom: 2px solid #3498db;
+	padding-bottom: 5px;
+	color: rgb(255, 255, 255);
+}
+
+.about p {
+	font-size: 16px;
+	line-height: 1.6;
+}
+
+.projects {
+	margin-top: 20px;
+	text-align: left;
+}
+
+.projects h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+	border-bottom: 2px solid #3498db;
+	padding-bottom: 5px;
+	color: rgb(255, 255, 255);
+}
+
+.project-tile {
+	background-color: #3498db;
+	color: #fff;
+	padding: 15px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s ease;
+}
+
+.project-tile:hover {
+	transform: scale(1.05);
+}
+
+.project-tile h3 {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.project-tile a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.project-tile p {
+	font-size: 16px;
+}
+
+.skillset {
+	margin-top: 20px;
+}
+
+.skillset h2 {
+	border-bottom: 2px solid #3498db;
+	padding-bottom: 5px;
+	color: rgb(255, 255, 255);
+}
+
+.experience h2 {
+	border-bottom: 2px solid #3498db;
+	padding-bottom: 5px;
+	color: rgb(255, 255, 255);
+}
+
+.contact h2 {
+	border-bottom: 2px solid #3498db;
+	padding-bottom: 5px;
+	color: rgb(255, 255, 255);
+}
